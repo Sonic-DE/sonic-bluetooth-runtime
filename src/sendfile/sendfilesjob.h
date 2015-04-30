@@ -42,14 +42,12 @@ class SendFilesJob : public KJob
     Q_OBJECT
 
 public:
-    explicit SendFilesJob(const QStringList &files, BluezQt::DevicePtr device, QObject *parent = 0);
+    explicit SendFilesJob(const QStringList &files, BluezQt::DevicePtr device, const QDBusObjectPath &session, QObject *parent = Q_NULLPTR);
 
     void start() Q_DECL_OVERRIDE;
     bool doKill() Q_DECL_OVERRIDE;
 
 private Q_SLOTS:
-    void initJobResult(BluezQt::InitObexManagerJob *job);
-    void createSessionFinished(BluezQt::PendingCall *call);
     void doStart();
     void nextJob();
     void sendFileFinished(BluezQt::PendingCall *call);
