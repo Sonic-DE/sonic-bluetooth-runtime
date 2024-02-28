@@ -1,14 +1,14 @@
+# SPDX-FileCopyrightText: 2022, 2024 Ryuichi Yamada <ryuichi_ya220@outlook.jp>
 # 百武 朋大 <tomhioo@outlook.jp>, 2019.
 # Fumiaki Okushi <fumiaki.okushi@gmail.com>, 2014, 2015, 2019.
-# Ryuichi Yamada <ryuichi_ya220@outlook.jp>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: bluedevil\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-02-18 00:38+0000\n"
-"PO-Revision-Date: 2022-08-26 17:12+0900\n"
+"PO-Revision-Date: 2024-02-23 21:57+0900\n"
 "Last-Translator: Ryuichi Yamada <ryuichi_ya220@outlook.jp>\n"
-"Language-Team: Japanese <kde-jp@kde.org>\n"
+"Language-Team: ja\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
-"X-Generator: Lokalize 22.04.1\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -52,12 +52,12 @@ msgstr "種類:"
 #: ui/Device.qml:108
 #, kde-format
 msgid "%1%"
-msgstr ""
+msgstr "%1%"
 
 #: ui/Device.qml:112
 #, kde-format
 msgid "Battery:"
-msgstr ""
+msgstr "バッテリ:"
 
 #: ui/Device.qml:117 ui/General.qml:42
 #, kde-format
@@ -170,11 +170,10 @@ msgid "Select folder"
 msgstr "フォルダを選択"
 
 #: ui/main.qml:27
-#, fuzzy, kde-format
-#| msgid "Enabled:"
+#, kde-format
 msgctxt "@action: button as in, 'enable Bluetooth'"
 msgid "Enabled"
-msgstr "有効:"
+msgstr "有効"
 
 #: ui/main.qml:43
 #, kde-format
@@ -216,7 +215,7 @@ msgstr "Bluetooth アダプタが見つかりません"
 #: ui/main.qml:169
 #, kde-format
 msgid "Connect an external Bluetooth adapter"
-msgstr ""
+msgstr "Bluetooth アダプタを接続してください"
 
 #: ui/main.qml:178
 #, kde-format
@@ -238,6 +237,8 @@ msgstr "ペアリングされたデバイスはありません"
 msgctxt "@info"
 msgid "Click <interface>Add New Device…</interface> to pair some"
 msgstr ""
+"<interface>新しいデバイスを追加...</interface>をクリックしてペアリングしてく"
+"ださい"
 
 #: ui/main.qml:217
 #, kde-format
@@ -258,4 +259,4 @@ msgstr "\"%1\" を削除"
 #: ui/main.qml:284
 #, kde-format
 msgid "%1% Battery"
-msgstr ""
+msgstr "バッテリ %1%"
